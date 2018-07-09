@@ -1,0 +1,52 @@
+
+body p {
+    font-size: 8px;
+    color: grey; 
+}
+
+#menu nav a {
+    color: grey;
+}
+#testimonio {
+    font-size: 15px;
+    margin-top: 5%;
+}
+.turista1 {
+    margin: auto;
+}
+.turista2 {
+    margin: auto;
+}
+.turista3 {
+    margin: auto;
+}
+
+#piePagina {
+    background:#dd7777;
+}
+
+#piePagina h4 {
+   color: white;
+   font-size: 20px;
+   text-align: center;
+   font-weight: normal;
+}
+
+#piePagina form {
+    width: 100%;
+    font-size: 10px;
+    margin: auto;
+    margin-top: 25px;
+    padding: 2em;
+
+}
+
+form .form-group{
+    margin-top: 25px;
+    color: white;
+    font-size: 10px;
+}
+
+form .form-group input{
+    font-size: 10px;
+}
