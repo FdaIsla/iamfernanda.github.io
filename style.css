@@ -1,52 +1,87 @@
 
+
+#redesSociales i {
+    color: #bbbbbb;
+    margin-top: 20%;
+    width: 200px;
+    
+}
+
+#espacio{
+    width:100%;
+    height: 90px;
+    
+}
+/* acerca  */
+body h2{
+    margin-top: 5px;
+    margin-left: 17px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    color:#bbbbbb; 
+    font-weight: 200;
+}
+#menu a {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#menu p{
+
+    font-size: 13px;
+    text-align: left;
+    font-weight: 300;
+    color: #bbbbbb;  
+}
+
+#menu p:hover {
+    background:#494949;
+}
+
+
+/* nombre */
+body h5 {
+    margin-top: 10px;
+    margin-left: 17px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    color:#494949; 
+    font-weight: 400;
+}
+
 body p {
-    font-size: 8px;
-    color: grey; 
-}
-
-#menu nav a {
-    color: grey;
-}
-#testimonio {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
     font-size: 15px;
-    margin-top: 5%;
-}
-.turista1 {
-    margin: auto;
-}
-.turista2 {
-    margin: auto;
-}
-.turista3 {
-    margin: auto;
+    color:#494949; 
 }
 
-#piePagina {
-    background:#dd7777;
+#trabajos h2 {
+    font-weight: 400; 
 }
 
-#piePagina h4 {
-   color: white;
-   font-size: 20px;
-   text-align: center;
-   font-weight: normal;
+#groupieMerch h2 {
+    text-align: right;
+    margin-right: 17px;
 }
 
-#piePagina form {
+#groupieMerch img {
+    margin-left: 17px;
     width: 100%;
-    font-size: 10px;
-    margin: auto;
-    margin-top: 25px;
-    padding: 2em;
-
 }
 
-form .form-group{
-    margin-top: 25px;
-    color: white;
-    font-size: 10px;
-}
+@media only screen and (max-width: 600px) {
+    
+        
+    }
 
-form .form-group input{
-    font-size: 10px;
-}
+
+
+
+
+
+
+
+
+
+
+
