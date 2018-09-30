@@ -23,9 +23,9 @@ body h2{
 #redesSociales i {
     color: #bbbbbb;
     margin-top: 20%;
-    width: 200px;
-    
+    width: 200px;  
 }
+
 /* PORTADA-FONDO */
 #portada {
     background-image: url(img/portadaB.jpg);
@@ -38,10 +38,9 @@ body h2{
 
 /* NOMBRE */
 body h5 {
-    margin-top: 10px;
     margin-left: 17px;
     font-family: 'Oswald', sans-serif;
-    font-size: 25px;
+    font-size: 30px;
     color:#494949; 
     font-weight: 500;
 }
@@ -102,8 +101,8 @@ body h5 {
 }
 
 #presentacion {
-    margin-left: 17px;
-    padding: 3em; 
+    width: 100%;
+    padding: 1em; 
     margin-bottom: 6em;
 }
 
@@ -114,7 +113,6 @@ body h5 {
 #habilidades img {
     width: 100px;
     height: 100px;
-    margin-left: 35%;
     margin-top: 5%;
     color: #494949;
  
@@ -123,7 +121,48 @@ body h5 {
 text-align: center;
  
 }
+#pasiones {
+    margin-top: 6em;
+}
+#pasiones img {
+    width: 100px;
+    height: 100px;
+    margin-top: 5%;
+    color: #494949;
+ 
+}
 
+#contacto1 {
+    width:100%;
+    height: 200px;
+    background: #494949;  
+    margin-top: 6em;
+}
+
+#contacto1 h5 {
+    font-weight: 300;
+    font-size: 20px;
+    color: #bbbbbb;
+    text-align: center;
+}
+#contacto1 p {
+    font-weight: 300;
+    font-size: 15px;
+    color: #bbbbbb;
+    text-align: center;
+}
+
+#otro {
+    width:100%;
+    height: 70px;
+    background: #242323;
+}
+
+/* REDES SOCIALES */
+#redesSociales2 i {
+    color: #bbbbbb;
+    width: 50%; 
+}
 
 
 
