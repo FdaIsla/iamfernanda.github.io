@@ -33,7 +33,7 @@ body h2{
     background-size: auto;
     background-repeat: no-repeat;
     width: 100%;
-    height: 600px;
+    height: 800px;
 }
 
 /* NOMBRE */
@@ -102,12 +102,25 @@ body h5 {
 }
 
 #presentacion {
+    margin-left: 17px;
+    padding: 3em; 
     margin-bottom: 6em;
+}
+
+#presentacion p {
+    text-align: justify;
 }
 
 #habilidades img {
     width: 100px;
     height: 100px;
+    margin-left: 35%;
+    margin-top: 5%;
+    color: #494949;
+ 
+}
+#habilidades h5, p {
+text-align: center;
  
 }
 
