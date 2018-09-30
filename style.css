@@ -10,9 +10,10 @@
 #espacio{
     width:100%;
     height: 90px;
+    background: #494949;
     
 }
-/* acerca  */
+/* ACERCA DE  */
 body h2{
     margin-top: 5px;
     margin-left: 17px;
@@ -26,8 +27,7 @@ body h2{
     margin-top: 10px;
 }
 #menu p{
-
-    font-size: 13px;
+    font-size: 20px;
     text-align: left;
     font-weight: 300;
     color: #bbbbbb;  
@@ -37,15 +37,14 @@ body h2{
     background:#494949;
 }
 
-
-/* nombre */
+/* NOMBRE */
 body h5 {
     margin-top: 10px;
     margin-left: 17px;
     font-family: 'Oswald', sans-serif;
-    font-size: 20px;
+    font-size: 25px;
     color:#494949; 
-    font-weight: 400;
+    font-weight: 500;
 }
 
 body p {
@@ -54,20 +53,46 @@ body p {
     font-size: 15px;
     color:#494949; 
 }
-
+/* TRABAJOS */
 #trabajos h2 {
-    font-weight: 400; 
+    margin-top: 3em;
+    color: #bbbbbb; 
+    font-size: 30px;
+    font-weight: 300; 
 }
-
-#groupieMerch h2 {
-    text-align: right;
-    margin-right: 17px;
-}
-
-#groupieMerch img {
+/* GROUPIE MERCH */
+#groupieMerch{
     margin-left: 17px;
     width: 100%;
+    padding: 3em; 
 }
+
+#groupieMerch img{
+    margin-bottom: 10em;
+}
+
+#groupieMerch h5{
+    text-align: right;
+    color: #494949; 
+    font-size: 35px;
+}
+
+#groupieMerch p{
+    text-align:justify;
+    color: #bbbbbb; 
+    font-size: 15px;
+    
+    margin-top: 10px;
+}
+
+#groupieMerch button{
+    align-items: flex-end;
+    font-size: 15px;
+    
+    margin-top: 10px;
+}
+
+
 
 @media only screen and (max-width: 600px) {
     
