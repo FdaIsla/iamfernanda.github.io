@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,700" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
    
     <title>Portafolio</title>
 </head>
@@ -18,22 +19,22 @@
           <div class="col-10 col-md-11">
             <h5>Gfis</h5>
           </div>
-          <div id="redesSociales" class="col-2 col-md-1">
-              <a href="https://www.linkedin.com/in/fernandaisla/" id="in"><i class="fab fa-linkedin-in"></i></a>
-              <a href="https://github.com/iamfernanda" id="gi"><i class="fab fa-github"></i></a>
-              <a href="CV Girlaine Fernanda Isla.pdf" download="Reporte2Mayo2010"><i class="fas fa-file-alt"></i></a>
-          </div>
+          <!-- <div id="redesSociales" class="col-2 col-md-1">
+              <a href="https://www.linkedin.com/in/fernandaisla/" id="in"><i class="fab fa-linkedin-in"></i></a><br>
+              <a href="https://github.com/iamfernanda" id="gi"><i class="fab fa-github"></i></a><br>
+              <a href="CV Girlaine Fernanda Isla.pdf" download="Reporte2Mayo2010"><i class="fas fa-file-alt"></i></a><br>
+          </div> -->
         </div>
        </div>
     </header>
     <!-- Portada-->
       <div id="portada" class="container-fluid">
           <div class="row">
-             <div id="menu" class="col-12 col-md-2">
+             <div id="menu" class="col-12 col-md-2 col-lg-1">
                <nav class="navbar navbar-inverse" role="navigation">
-                 <a href=""><p>TRABAJOS</p></a><br>
-                 <a href=""><p>SOBRE MÍ</p></a><br>
-                 <a href=""><p>CONTACTO</p></a>
+                 <a href="#trabajos"><p>TRABAJOS</p></a><br>
+                 <a href="#sobremi"><p>SOBRE MÍ</p></a><br>
+                 <a href="#contacto"><p>CONTACTO</p></a>
                 </nav>
               </div> 
                 <div class="col-12 col-md-8">
@@ -47,11 +48,11 @@
   <!-- TRABAJOS -->
     <div id="trabajos" class="container-fluid">
       <div class="row justify-content-center">
-       <div class="col-2 col-md-12">
-         <h2>TRABAJOS</h2>
+       <div class="col-2 col-md-12 ">
+         <h2 class="animated infinite fadeOutDown">TRABAJOS</h2>
       </div>
          <div id="groupieMerch">
-             <div class="col-12 col-md-10">
+             <div class="col-12 col-md-10 ">
                 <div class="text-white">
                     <img class="card-img" src="img/GroupieMerch/0001 .jpg" alt="">
                     <div class="card-img-overlay">
@@ -168,20 +169,27 @@
      <!-- SOBRE MI -->
      <div id="sobremi" class="container-fluid">
         <div class="row justify-content-center">
-           <div class="col-12"><h2>SOBRE MÍ</h2></div>
+           <div class="col-12 col-md-2">
+             <h2 class="animated infinite fadeOutDown">SOBRE MÍ</h2>
+            </div>
         </div>
     </div>
       <div id="presentacion" class="container-fluid">
         <div class="row justify-content-center">
             <div class="col-12 col-md-8">
               <div class="card1 justify-content-center" style="width:100%">
-                   <img class="card-img-top" src="img/hola.jpg" alt="Card image cap">
+                   <img class="card-img-top" src="" alt="Card image cap">
                   <div class="card-body" style="padding:0%" >
                     <h5>HOLA</h5>
                     <p >Mi nombres es Fernanda Isla y soy diseñadora UX en formación. Mi principal enfoque esta en ser un puente entre las personas y los desarrolladores, mi rol apunta a entender e introducirme en las necesidades de los usuarios, guiar y plasmar las ideas trabajando siempre de manera colaborativa.</p>
                   </div>
              </div>
           </div>
+          <div class="col-12 col-md-4">
+              <button type="button" class="btn btn-outline-secondary" data-toggle="modal" data-target="#exampleModal">
+                  <a href="CV Girlaine Fernanda Isla.pdf" download="Reporte2Mayo2010"> Curriculum</a> 
+              </button>
+        </div>
       </div>
     </div>
        <div id="habilidades" class="container-fluid">
@@ -236,29 +244,32 @@
           </div>
        </div>
        <!-- SOBRE MI -->
-     <div id="sobremi" class="container-fluid">
-        <div class="row justify-content-center">
-           <div class="col-12"><h2>CONTACTO</h2></div>
+     <div id="contacto" class="container-fluid">
+        <div class="row">
+           <div class="col-12">
+             <h2>CONTACTO</h2>
+            </div>
         </div>
     </div>
-       <div id="contacto1" class="container-fluid">
-          <div class="row">
-              <div class="col-12">
-                  <h5>Localización</h5>
-                  <p>San Joaquin, Santiago de Chile.</p>
-               </div>
-              </div>
+       <div id="redesSociales2" class="container-fluid">
+          <div class="row justify-content-center">
+             <div class="col-12 col-md-4">
+                 <a href="#trabajos"><h2>TRABAJOS</h2></a>
             </div>
-                  <div id="redesSociales2" class="container-fluid"> 
-                      <div class="row">
-                        <div class="col-12">
-                            <a href="https://www.linkedin.com/in/fernandaisla/" id="in"><i class="fab fa-linkedin-in "></i></a>
-                            <a href="https://github.com/iamfernanda" id="gi"><i class="fab fa-github "></i></a>
-                            <a href="CV Girlaine Fernanda Isla.pdf" download="Reporte2Mayo2010"><i class="fas fa-file-alt "></i></a>
-                        </div>
-                    </div>
+             <div class="col-12 col-md-4">
+                 <a href="#sobremi"><h2>SOBRE MÍ</h2></a>
+              </div>
+                <div class="col-12 col-md-4">
+                 <a href="#contacto"><h2>CONTACTO</h2></a>
+               </div>
+                  <div class="col-12 col-md-4 ">
+                    <a href="https://www.linkedin.com/in/fernandaisla/" ><i class="fab fa-linkedin-in  "></i></a>
+                    <a href="https://github.com/iamfernanda" ><i class="fab fa-github "></i></a>
                 </div>
-        <div id="otro" class="container-fluid"></div>
+            </div>
+       </div>
+            
+                  
   
          
             
