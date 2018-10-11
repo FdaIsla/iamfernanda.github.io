@@ -2,102 +2,100 @@
 header {
     margin-top: 2em;
 }
-/* BODY */
-body p {
-    font-family: 'Oswald', sans-serif;
-    font-weight: 300;
-    font-size: 15px;
-    color:#393e46; 
-}
-/* TITULOS TRABAJOS, SOBRE MI, CONTACTO */
-body h2{
-    margin-top: 2em;
-    margin-left: 17px;
-    font-family: 'Oswald', sans-serif;
-    font-size: 30px;
-    color:#bbbbbb; 
-    font-weight: 300;
+
+#menu {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    background: #393e46;
+    color: #ffffff;
 }
 
-/* REDES SOCIALES */
-#redesSociales i {
-    /* color: #bbbbbb;
-    margin-top: 20%;
-    width: 200px;   */
-}
-
-/* PORTADA-FONDO */
 #portada {
     background-image: url(img/portadaB.jpg);
     background-position: center;
-    background-size: auto;
     background-repeat: no-repeat;
     width: 100%;
     height: 800px;
 }
 
-/* NOMBRE */
-body h5 {
-    margin-left: 17px;
-    font-family: 'Oswald', sans-serif;
+#espacio i {
+    font-size: 50px;
+    color: #FFFFFF;
+    margin-top: 20%;
+
+}
+
+
+
+/* TITULO TRABAJOS, SOBRE MI, CONTACTO */
+body h2{
+    margin-top: 7em;
+    margin-bottom: 2em;
+    font-family: 'Roboto', sans-serif;
     font-size: 30px;
-    color:#393e46; 
-    font-weight: 500;
-}
-
- /* MENU */
-#menu a {
-    margin-left: 10px;
-    margin-top: 10px;
-}
-#menu p{
-    font-size: 15px;
-    text-align: left;
-    font-weight: 300;
-    color: #bbbbbb;  
-}
-
-#menu p:hover {
-    background:#494949;
+    color:#a09f9f; 
+    font-weight: 400;
 }
 
 /* ESPACIO */
 #espacio{
     width:100%;
-    height: 150px;
+    height: 200px;
     background: #393e46;  
+    margin-bottom: 20em;
+}
+/* TITULO DE PORTAFOLIO */
+#portafolio {
+    margin-left: 1em;
 }
 
-/* GROUPIE MERCH */
-#groupieMerch{
-    margin-left: 17px;
-    width: 150%;
-    padding: 3em; 
+/* <!-- SELECCIÓN DE PORTAFOLIO --> */
+#vistaPotafolio {
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 20em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #393e46;
+    border: none;
 }
 
-#groupieMerch img{
-    margin-bottom: 10em;
+#vistaPotafolio .card {
+    border: none;
 }
 
-#groupieMerch h5{
-    text-align: right;
-    color: #393e46; 
-    font-size: 35px;
+#vistaPotafolio p {
+    text-align: justify;
+    font-weight: 100;
+    color: #a09f9f;
 }
 
-#groupieMerch p{
-    text-align:justify;
-    color: #bbbbbb; 
-    font-size: 15px;
-    
-    margin-top: 10px;
+#presentacion .card{
+    border: none;
 }
 
-#groupieMerch button{
-    align-items: flex-end;
-    font-size: 15px;
-    
-    margin-top: 10px;
+#presentacion h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom:1%;
+    color: #323643;
+}
+
+#presentacion h6{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 4%;
+    color: #606470;
+}
+
+#presentacion p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    text-align: justify;
+    color: #919190;
 }
 
 #presentacion {
@@ -105,33 +103,104 @@ body h5 {
     padding: 1em; 
     margin-bottom: 6em;
 }
+/* BOTON CV ///////////////////////////////// */
+#bottonCv button{
+    border-radius: 4px;
+    background-color: #CC1111;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
 
-#presentacion p {
+#bottonCv button a{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+#bottonCv button a:after{
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+#bottonCv button:hover a{
+    padding-right: 25px;
+}
+
+#bottonCv button:hover a:after{
+    opacity: 1;
+    right: 0;
+}
+
+#bottonCv a {
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+}
+/* ///////////////////////////////////////////////////////// */
+
+
+#habilidades {
+    margin-bottom: 10em;
+    color: #393e46;
+ 
+}
+
+#habilidades .card{
+    border: none;
+}
+
+#habilidades .fa-hand-holding-heart {
+    font-size: 70px;
+    color: #CC1111;
+    margin-bottom: 10%;
+}
+
+#habilidades .fa-toolbox{
+    font-size: 70px;
+    color: #CC1111;
+    margin-bottom: 10%;
+}
+
+#habilidades h5{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    color: #323643;
+    margin-bottom: 5%;
     text-align: justify;
 }
 
-#habilidades img {
-    width: 100px;
-    height: 100px;
-    margin-top: 5%;
-    color: #393e46;
- 
+#habilidades p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    color: #919190;
+    margin-bottom: 5%;
+    text-align: justify;
+
 }
-#habilidades h5, p {
-text-align: center;
- 
-}
-#pasiones {
-    margin-top: 6em; 
-    margin-bottom: 15em;
-}
-#pasiones img {
-    width: 100px;
-    height: 100px;
-    margin-top: 5%;
-    color: #393e46;
- 
-}
+
+
+
+
+
+
+
+
+
 
 #contacto {
     width:100%;

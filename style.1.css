@@ -1,0 +1,148 @@
+
+header {
+    margin-top: 2em;
+}
+
+#menu {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    background: #393e46;
+    color: #ffffff;
+}
+
+#portada {
+    background-image: url(img/portadaB.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 800px;
+}
+
+/* TITULO TRABAJOS, SOBRE MI, CONTACTO */
+body h2{
+    margin-top: 7em;
+    margin-bottom: 2em;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color:#a09f9f; 
+    font-weight: 400;
+}
+
+#vistaPotafolio {
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #393e46;
+    border: none;
+}
+
+
+#vistaPotafolio .card {
+    border: none;
+}
+
+
+/* GROUPIE MERCH */
+#groupieMerch{
+  
+    width: 150%;
+    padding: 3em; 
+}
+
+
+
+#presentacion {
+    width: 100%;
+    padding: 1em; 
+    margin-bottom: 6em;
+}
+
+#presentacion p {
+    text-align: justify;
+}
+
+#habilidades img {
+    width: 100px;
+    height: 100px;
+    margin-top: 5%;
+    color: #393e46;
+ 
+}
+#habilidades h5, p {
+text-align: center;
+ 
+}
+#pasiones {
+    margin-top: 6em; 
+    margin-bottom: 15em;
+}
+#pasiones img {
+    width: 100px;
+    height: 100px;
+    margin-top: 5%;
+    color: #393e46;
+ 
+}
+
+#contacto {
+    width:100%;
+    height: 100px;
+    margin-top: 2em;
+    background: #cc1111; 
+}
+
+#contacto h2 {
+    font-weight: 300;
+    font-size: 20px;
+    color: aliceblue;
+    text-align: center;
+}
+
+/* REDES SOCIALES */
+#redesSociales2 {
+    width:100%;
+    height: 300px;
+    background: #393e46; 
+}
+#redesSociales2 h5 {
+    font-weight: 200;
+    font-size: 15px;
+    color: #ffffff;
+   
+}
+#redesSociales2 h2 {
+    font-size: 15px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 2em;
+
+  
+}
+#redesSociales2 i {
+    width: 35%;
+    font-weight: 100;
+    font-size: 20px;
+    color: #ffffff; 
+    text-align: right;
+}
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    
+        
+    }
+
+
+
+
+
+
+
+
+
+
+
+
