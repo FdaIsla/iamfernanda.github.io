@@ -4,18 +4,33 @@ header {
 }
 
 #menu {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 200;
-    background: #393e46;
-    color: #ffffff;
+    background:#ffffff;
 }
 
+ #menu a {
+     color: #393e46;
+     font-family: 'Roboto', sans-serif;
+     font-weight: 400;
+ }
+
+
 #portada {
-    background-image: url(img/portadaB.jpg);
+    background-image: url(img/Minimal-Home-Office-Design-Ideas\ copy.jpg);
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
-    height: 800px;
+    height: 600px;
+}
+
+#portada h1{
+    font-size:40px;
+    text-align: center;
+    margin-top: 250px;
+    color: #393e46;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    background-color: #ffffff;
+    opacity: 0.5;
 }
 
 #espacio i {
@@ -24,8 +39,6 @@ header {
     margin-top: 20%;
 
 }
-
-
 
 /* TITULO TRABAJOS, SOBRE MI, CONTACTO */
 body h2{
@@ -40,9 +53,9 @@ body h2{
 /* ESPACIO */
 #espacio{
     width:100%;
-    height: 200px;
+    height: 150px;
     background: #393e46;  
-    margin-bottom: 20em;
+    margin-bottom: 10em;
 }
 /* TITULO DE PORTAFOLIO */
 #portafolio {
@@ -50,10 +63,11 @@ body h2{
 }
 
 /* <!-- SELECCIÓN DE PORTAFOLIO --> */
-#vistaPotafolio {
+#vistaPotafolio01 {
+    margin-top: 15em;
     margin-left: 2em;
     margin-right: 2em;
-    margin-bottom: 20em;
+    margin-bottom: 10em;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     color: #393e46;
@@ -74,9 +88,22 @@ body h2{
     border: none;
 }
 
+#vistaPotafolio02 {
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 20em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #393e46;
+    border: none;
+}
+
+
+
+/* PRESENTACION////////////////////// */
 #presentacion h3{
     font-family: 'Roboto', sans-serif;
-    font-size: 50px;
+    font-size: 55px;
     font-weight: 400;
     margin-bottom:1%;
     color: #323643;
@@ -84,7 +111,7 @@ body h2{
 
 #presentacion h6{
     font-family: 'Roboto', sans-serif;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 400;
     margin-bottom: 4%;
     color: #606470;
@@ -92,8 +119,8 @@ body h2{
 
 #presentacion p{
     font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    font-weight: 200;
+    font-size: 23px;
+    font-weight: 100;
     text-align: justify;
     color: #919190;
 }
@@ -103,10 +130,52 @@ body h2{
     padding: 1em; 
     margin-bottom: 6em;
 }
+
+
+#habilidades {
+    margin-bottom: 15em;
+    color: #393e46;
+ 
+}
+
+#habilidades .card{
+    border: none;
+}
+
+#habilidades h5{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    color: #606470;
+    margin-bottom: 5%;
+    text-align: justify;
+}
+
+#habilidades p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    font-weight: 100;
+    color: #919190;
+    margin-bottom: 5%;
+    text-align: justify;
+}
+
+
 /* BOTON CV ///////////////////////////////// */
+
+#bottonCv h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: 100;
+    color: #606470;
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 5%;  
+}
+
 #bottonCv button{
     border-radius: 4px;
-    background-color: #CC1111;
+    background-color: #ef4343;
     border: none;
     color: #FFFFFF;
     text-align: center;
@@ -149,64 +218,15 @@ body h2{
     font-size: 25px;
     font-weight: 400;
 }
+
 /* ///////////////////////////////////////////////////////// */
-
-
-#habilidades {
-    margin-bottom: 10em;
-    color: #393e46;
- 
-}
-
-#habilidades .card{
-    border: none;
-}
-
-#habilidades .fa-hand-holding-heart {
-    font-size: 70px;
-    color: #CC1111;
-    margin-bottom: 10%;
-}
-
-#habilidades .fa-toolbox{
-    font-size: 70px;
-    color: #CC1111;
-    margin-bottom: 10%;
-}
-
-#habilidades h5{
-    font-family: 'Roboto', sans-serif;
-    font-size: 25px;
-    font-weight: 400;
-    color: #323643;
-    margin-bottom: 5%;
-    text-align: justify;
-}
-
-#habilidades p{
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    font-weight: 200;
-    color: #919190;
-    margin-bottom: 5%;
-    text-align: justify;
-
-}
-
-
-
-
-
-
-
-
 
 
 #contacto {
     width:100%;
     height: 100px;
     margin-top: 2em;
-    background: #cc1111; 
+    background: #ef4343; 
 }
 
 #contacto h2 {
@@ -218,11 +238,9 @@ body h2{
 
 /* REDES SOCIALES */
 #redesSociales2 {
-    width:100%;
-    height: 300px;
     background: #393e46; 
 }
-#redesSociales2 h5 {
+#redesSociales2 a {
     font-weight: 200;
     font-size: 15px;
     color: #ffffff;
