@@ -11,38 +11,195 @@ header {
      color: #393e46;
      font-family: 'Roboto', sans-serif;
      font-weight: 400;
- }
+}
 
-
-#groupieMerchContenido {
-
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    color: #393e46;
+ .card {
     border: none;
 }
 
-
-#groupieMerchContenido .card {
-    border: none;
+body {
+    font-family: 'Roboto', sans-serif; 
+    color: #393e46; 
+}
+body p { 
+    color: #606470; 
+    font-weight: 100;
 }
 
 
-/* GROUPIE MERCH */
-#groupieMerchContenido{
-  
-  
+#titulo {
+    margin-top: 8em;
 }
 
-#groupieMerchContenido {
-    width: 100%;
-    padding: 1em; 
-    margin-bottom: 6em;
+#titulo p {
+    font-weight: 300; 
+    font-style: italic; 
 }
 
-#groupieMerchContenido p {
+/* ///////////////////////////// */
+#groupie01 {
+    margin-top: 3em;
+    font-weight: 300;   
+}
+
+#groupie01 h5{
+    font-weight: 500;   
+}
+
+#groupie01 p{
+    text-align: justify;  
+}
+
+/* ///////////////////////////// */
+#groupie02 {
+    margin-top: 3em;  
+}
+
+#groupie02 h5{
+    font-weight: 500;   
+}
+
+#groupie02 img{
+    margin-top: 2em; 
+    margin-bottom: 2em; 
+}
+
+#groupie02 p{
+    text-align: justify;  
+}
+
+/* ///////////////////////////// */
+#groupie03 {
+    margin-top: 5em;  
+}
+
+#groupie03 h5{
+    font-weight: 500;   
+}
+
+#groupie03 img{
+    margin-top: 2em; 
+    margin-bottom: 2em; 
+}
+
+#groupie03 p{
+    text-align: justify;  
+}
+
+/* ///////////////////////////// */
+#groupie04 {
+    margin-top: 6em;  
+}
+
+#groupie04 h5{
+    font-weight: 500;   
+}
+
+#groupie04 p{
+    text-align: justify;  
+}
+
+/* ///////////////////////////// */
+#groupie05 {
+    margin-top: 6em;  
+}
+
+#groupie05 h5{
+    font-weight: 500;   
+}
+
+#groupie05 h3{
+    color: #606470;
+    text-align: justify;
+    font-weight: 300; 
+}
+
+#groupie05 p{
+    text-align: justify;  
+}
+
+/* ///////////////////////////// */
+#groupie06 {
+    margin-top: 6em;  
+}
+
+#groupie06 h5{
+    font-weight: 500;   
+}
+
+#groupie06 h3{
+    color: #606470;
     text-align: justify;
 }
+
+#groupie06 p{
+    text-align: justify;  
+}
+
+/* ///////////////////////////// */
+#groupie07 {
+    margin-top: 6em;  
+}
+
+#groupie07 h5{
+    font-weight: 500;   
+}
+
+#groupie07 h3{
+    color: #606470;
+    text-align: justify;
+}
+
+#groupie07 p{
+    text-align: justify;  
+}
+
+#groupie07 img{
+    margin-bottom: 2em; 
+}
+
+/* ///////////////////////////// */
+#groupie08 {
+    margin-top: 6em;  
+}
+
+#groupie08 h5{
+    font-weight: 500;   
+}
+
+#groupie08 h3{
+    color: #e25349;
+    text-align: justify;
+    font-weight: 300;
+}
+
+#groupie08 p{
+    text-align: justify;  
+}
+
+/* ///////////////////////////// */
+#groupie09 {
+    margin-top: 6em;  
+}
+
+#groupie09 h3{
+    color: #606470;
+    text-align: justify;
+    font-weight: 300;
+}
+
+#groupie07 img{
+    margin-bottom: 2em; 
+}
+
+
+
+
+
+
+
+
+
 
 
 
