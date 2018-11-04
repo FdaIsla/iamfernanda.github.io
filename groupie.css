@@ -13,6 +13,10 @@ header {
      font-weight: 400;
 }
 
+#menu img {
+    width: 40%;
+}
+
  .card {
     border: none;
 }
@@ -24,11 +28,6 @@ body {
 body p { 
     color: #606470; 
     font-weight: 100;
-}
-
-
-#titulo {
-    margin-top: 8em;
 }
 
 #titulo p {
@@ -104,7 +103,8 @@ body p {
     margin-top: 6em;  
 }
 
-#groupie05 h5{
+#groupie05 h2{
+    font-size: 25px;
     font-weight: 500;   
 }
 
@@ -179,7 +179,8 @@ body p {
 
 /* ///////////////////////////// */
 #groupie09 {
-    margin-top: 6em;  
+    margin-top: 6em; 
+    margin-bottom: 15em; 
 }
 
 #groupie09 h3{
@@ -191,22 +192,6 @@ body p {
 #groupie07 img{
     margin-bottom: 2em; 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* REDES SOCIALES */
@@ -240,7 +225,13 @@ body p {
 
 
 @media only screen and (max-width: 600px) {
-    
+    #menu img {
+        width: 30%;
+    }
+
+    #titulo h1 {
+       font-size: 30px;
+    }
         
     }
 

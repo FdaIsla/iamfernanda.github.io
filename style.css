@@ -3,8 +3,15 @@ header {
     margin-top: 2em;
 }
 
+body .card{
+    border: none;
+}
 #menu {
+
     background:#ffffff;
+}
+#menu img {
+    width: 40%;
 }
 
  #menu a {
@@ -16,14 +23,15 @@ header {
 
 #portada {
     background-image: url(img/Minimal-Home-Office-Design-Ideas\ copy.jpg);
+    background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
-    width: 100%;
     height: 600px;
+    
 }
 
 #portada h1{
-    font-size:40px;
+    
     text-align: center;
     margin-top: 250px;
     color: #393e46;
@@ -33,23 +41,6 @@ header {
     opacity: 0.5;
 }
 
-#espacio i {
-    font-size: 50px;
-    color: #FFFFFF;
-    margin-top: 20%;
-
-}
-
-/* TITULO TRABAJOS, SOBRE MI, CONTACTO */
-body h2{
-    margin-top: 7em;
-    margin-bottom: 2em;
-    font-family: 'Roboto', sans-serif;
-    font-size: 30px;
-    color:#a09f9f; 
-    font-weight: 400;
-}
-
 /* ESPACIO */
 #espacio{
     width:100%;
@@ -57,47 +48,6 @@ body h2{
     background: #393e46;  
     margin-bottom: 10em;
 }
-/* TITULO DE PORTAFOLIO */
-#portafolio {
-    margin-left: 1em;
-}
-
-/* <!-- SELECCIÓN DE PORTAFOLIO --> */
-#vistaPotafolio01 {
-    margin-top: 15em;
-    margin-left: 2em;
-    margin-right: 2em;
-    margin-bottom: 10em;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    color: #393e46;
-    border: none;
-}
-
-#vistaPotafolio01 .card {
-    border: none;
-}
-
-#vistaPotafolio p {
-    text-align: justify;
-    font-weight: 100;
-    color: #a09f9f;
-}
-
-#presentacion .card{
-    border: none;
-}
-
-#vistaPotafolio02 {
-    margin-left: 2em;
-    margin-right: 2em;
-    margin-bottom: 20em;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    color: #393e46;
-    border: none;
-}
-
 
 
 /* PRESENTACION////////////////////// */
@@ -105,7 +55,6 @@ body h2{
     font-family: 'Roboto', sans-serif;
     font-size: 55px;
     font-weight: 400;
-    margin-bottom:1%;
     color: #323643;
 }
 
@@ -113,7 +62,6 @@ body h2{
     font-family: 'Roboto', sans-serif;
     font-size: 25px;
     font-weight: 400;
-    margin-bottom: 4%;
     color: #606470;
 }
 
@@ -138,10 +86,6 @@ body h2{
  
 }
 
-#habilidades .card{
-    border: none;
-}
-
 #habilidades h5{
     font-family: 'Roboto', sans-serif;
     font-size: 25px;
@@ -162,6 +106,7 @@ body h2{
 
 
 /* BOTON CV ///////////////////////////////// */
+
 
 #bottonCv h3{
     font-family: 'Roboto', sans-serif;
@@ -219,6 +164,47 @@ body h2{
     font-weight: 400;
 }
 
+/* TITULO DE PORTAFOLIO */
+#portafolio {
+    margin-left: 1em;
+}
+
+#vistaPotafolio01 {
+    margin-top: 15em;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 10em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #393e46;
+    border: none;
+}
+
+#vistaPotafolio01 .card {
+    border: none;
+}
+
+#vistaPotafolio p {
+    text-align: justify;
+    font-weight: 100;
+    color: #a09f9f;
+}
+
+#presentacion .card{
+    border: none;
+}
+
+#vistaPotafolio02 {
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 20em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #393e46;
+    border: none;
+}
+
+
 /* ///////////////////////////////////////////////////////// */
 
 
@@ -255,9 +241,9 @@ body h2{
   
 }
 #redesSociales2 i {
-    width: 35%;
+    width: 40%;
     font-weight: 100;
-    font-size: 20px;
+    font-size: 30px;
     color: #ffffff; 
     text-align: right;
 }
@@ -267,7 +253,52 @@ body h2{
 
 
 @media only screen and (max-width: 600px) {
+   
+    #menu img {
+        width: 30%;
+    }
     
+    #portada {
+        background-size: 150%;
+    }
+    
+    #portada h1{
+        font-size: 30px;
+    }
+    
+    /* ESPACIO */
+    #espacio {
+    height: 100px;
+    margin-bottom: 5em;
+    }
+
+    /* PRESENTACION////////////////////// */
+    #presentacion h3{
+        font-size: 30px;
+    }
+
+    #presentacion h6{
+        font-size: 22px;
+    }
+
+    #presentacion p{
+        font-size: 17px;
+    }
+
+    #habilidades p{
+        font-size: 17px;
+    }
+
+    #habilidades h5{
+        font-size: 22px;
+    }
+
+    #bottonCv h3{
+        font-size: 17px;
+       
+    }
+
+        
         
     }
 
