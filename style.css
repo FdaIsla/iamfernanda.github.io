@@ -22,12 +22,11 @@ body .card{
 
 
 #portada {
-    background-image: url(img/Minimal-Home-Office-Design-Ideas\ copy.jpg);
+    background-image: url(img/Minimal-Home-Office-Design-Ideas\ copy\ copy.jpg);
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
-    height: 600px;
-    
+    height: 600px;  
 }
 
 #portada h1{
@@ -39,14 +38,6 @@ body .card{
     font-weight: 100;
     background-color: #ffffff;
     opacity: 0.5;
-}
-
-/* ESPACIO */
-#espacio{
-    width:100%;
-    height: 150px;
-    background: #393e46;  
-    margin-bottom: 10em;
 }
 
 
@@ -264,12 +255,6 @@ body .card{
     
     #portada h1{
         font-size: 30px;
-    }
-    
-    /* ESPACIO */
-    #espacio {
-    height: 100px;
-    margin-bottom: 5em;
     }
 
     /* PRESENTACION////////////////////// */
