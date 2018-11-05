@@ -37,11 +37,11 @@ body p {
 
 /* ///////////////////////////// */
 #groupie01 {
-    margin-top: 3em;
+    margin-top: 2em;
     font-weight: 300;   
 }
 
-#groupie01 h5{
+#groupie01 h6{
     font-weight: 500;   
 }
 
@@ -87,10 +87,11 @@ body p {
 
 /* ///////////////////////////// */
 #groupie04 {
-    margin-top: 6em;  
+    margin-top: 2em; 
+    margin-bottom: 2em;  
 }
 
-#groupie04 h5{
+#groupie04 h6{
     font-weight: 500;   
 }
 
@@ -100,7 +101,8 @@ body p {
 
 /* ///////////////////////////// */
 #groupie05 {
-    margin-top: 6em;  
+    margin-top: 2em; 
+    margin-bottom: 2em;  
 }
 
 #groupie05 h2{
@@ -120,15 +122,11 @@ body p {
 
 /* ///////////////////////////// */
 #groupie06 {
-    margin-top: 6em;  
-}
-
-#groupie06 h5{
-    font-weight: 500;   
+    margin-top: 2em; 
+    margin-bottom: 2em;  
 }
 
 #groupie06 h3{
-    color: #606470;
     text-align: justify;
 }
 
@@ -138,15 +136,11 @@ body p {
 
 /* ///////////////////////////// */
 #groupie07 {
-    margin-top: 6em;  
-}
-
-#groupie07 h5{
-    font-weight: 500;   
+    margin-top: 2em; 
+    margin-bottom: 2em;  
 }
 
 #groupie07 h3{
-    color: #606470;
     text-align: justify;
 }
 
@@ -154,23 +148,16 @@ body p {
     text-align: justify;  
 }
 
-#groupie07 img{
-    margin-bottom: 2em; 
-}
 
 /* ///////////////////////////// */
 #groupie08 {
     margin-top: 6em;  
 }
 
-#groupie08 h5{
-    font-weight: 500;   
-}
-
 #groupie08 h3{
-    color: #e25349;
+    color: #606470;
     text-align: justify;
-    font-weight: 300;
+    font-weight: 300; 
 }
 
 #groupie08 p{
@@ -178,51 +165,50 @@ body p {
 }
 
 /* ///////////////////////////// */
+
 #groupie09 {
-    margin-top: 6em; 
-    margin-bottom: 15em; 
+    margin-top: 2em; 
+    margin-bottom: 10em; 
 }
 
 #groupie09 h3{
-    color: #606470;
     text-align: justify;
-    font-weight: 300;
 }
 
 #groupie07 img{
     margin-bottom: 2em; 
 }
 
+/* ///////////////////////////// */
+
+#groupie10 {
+    margin-bottom: 15em; 
+}
 
 /* REDES SOCIALES */
-#redesSociales2 {
+#redesSociales {
     background: #393e46; 
 }
-#redesSociales2 a {
+#redesSociales a {
     font-weight: 200;
     font-size: 15px;
     color: #ffffff;
    
 }
-#redesSociales2 h2 {
+#redesSociales h2 {
     font-size: 15px;
     color: #ffffff;
     text-align: center;
     margin-bottom: 2em;
-
-  
 }
-#redesSociales2 i {
-    width: 35%;
+
+#redesSociales i {
+    width: 25%;
     font-weight: 100;
-    font-size: 20px;
+    font-size: 25px;
     color: #ffffff; 
     text-align: right;
 }
-
-
-
-
 
 @media only screen and (max-width: 600px) {
     #menu img {
