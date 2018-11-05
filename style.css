@@ -7,7 +7,6 @@ body .card{
     border: none;
 }
 #menu {
-
     background:#ffffff;
 }
 #menu img {
@@ -15,24 +14,16 @@ body .card{
 }
 
  #menu a {
+     font-size: 15px;
      color: #393e46;
      font-family: 'Roboto', sans-serif;
      font-weight: 400;
  }
 
-
-#portada {
-    background-image: url(img/Minimal-Home-Office-Design-Ideas\ copy\ copy.jpg);
-    background-size: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 600px;  
-}
-
 #portada h1{
     
     text-align: center;
-    margin-top: 250px;
+    margin-top: 200px;
     color: #393e46;
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
@@ -66,7 +57,7 @@ body .card{
 
 #presentacion {
     width: 100%;
-    padding: 1em; 
+    padding: 3em; 
     margin-bottom: 6em;
 }
 
@@ -194,11 +185,7 @@ body .card{
     color: #393e46;
     border: none;
 }
-
-
 /* ///////////////////////////////////////////////////////// */
-
-
 #contacto {
     width:100%;
     height: 100px;
@@ -228,9 +215,8 @@ body .card{
     color: #ffffff;
     text-align: center;
     margin-bottom: 2em;
-
-  
 }
+
 #redesSociales2 i {
     width: 40%;
     font-weight: 100;
@@ -239,11 +225,12 @@ body .card{
     text-align: right;
 }
 
-
-
-
-
 @media only screen and (max-width: 600px) {
+   
+    header {
+        width: 100%;
+        height: 50%;
+    }
    
     #menu img {
         width: 30%;

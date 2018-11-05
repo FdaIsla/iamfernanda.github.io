@@ -1,0 +1,173 @@
+
+header {
+    margin-top: 2em;
+}
+
+#menu {
+    background:#ffffff;
+}
+#menu img {
+    width: 40%;
+}
+
+ #menu a {
+     color: #393e46;
+     font-family: 'Roboto', sans-serif;
+     font-weight: 400;
+}
+
+.card {
+    border: none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif; 
+    color: #393e46; 
+}
+body p { 
+    color: #606470; 
+    font-weight: 100;
+}
+
+#titulo p {
+    font-weight: 300; 
+    font-style: italic; 
+}
+
+/* ///////////////////////////// */
+#reoil01 {
+    margin-top: 1em;
+    font-weight: 300;   
+}
+
+#reoil01 p{
+    text-align: justify;  
+}
+
+/* ///////////////////////////// */
+#reoil02 {
+    margin-top: 1em;
+    font-weight: 300;   
+}
+
+#reoil02 h5{
+    font-weight: 500;   
+}
+
+#reoil02 p{
+    text-align: justify;  
+}
+
+#reoil02 img{
+    margin-top: 2em; 
+    margin-bottom: 2em; 
+}
+
+ /* ///////////////////////////// */
+#reoil03 {
+    margin-top: 1em;
+    font-weight: 300;   
+}
+
+#reoil03 h2{
+    font-weight: 500;   
+}
+
+#reoil03 p{
+    text-align: justify;  
+}
+
+/* ////////////// */
+#reoil04 {
+    margin-top: 6em;  
+}
+
+#reoil04 h2{
+    font-size: 25px;
+    font-weight: 500;   
+}
+
+#reoil04 h3{
+    color: #606470;
+    text-align: justify;
+    font-weight: 300; 
+}
+
+#reoil04 p{
+    text-align: justify;  
+}
+
+ /* ///////////////////////////// */
+ #reoil05 {
+    margin-top: 1em;
+    font-weight: 300;   
+}
+
+#reoil05 h5{
+    color: #606470;
+    font-weight: 500;   
+}
+
+#reoil05 p{
+    text-align: justify;  
+}
+
+#reoil05 img{
+    margin-top: 3em; 
+    margin-bottom: 4em; 
+}
+
+/* ///////////////////////////// */
+#reoil06 {
+    margin-top: 4em;
+    font-weight: 300;   
+}
+
+
+#reoil06 p{
+    text-align: justify;  
+}
+
+
+
+
+
+
+
+
+/* REDES SOCIALES */
+#redesSociales2 {
+    background: #393e46; 
+}
+#redesSociales2 a {
+    font-weight: 200;
+    font-size: 15px;
+    color: #ffffff;
+   
+}
+#redesSociales2 h2 {
+    font-size: 15px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 2em;
+
+  
+}
+#redesSociales2 i {
+    width: 35%;
+    font-weight: 100;
+    font-size: 20px;
+    color: #ffffff; 
+    text-align: right;
+}
+
+
+@media only screen and (max-width: 600px) {
+    #menu img {
+        width: 30%;
+    }
+    #titulo h1 {
+        font-size: 30px;
+    }
+    
+    }
