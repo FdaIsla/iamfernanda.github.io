@@ -35,28 +35,13 @@ body p {
 }
 
 /* ///////////////////////////// */
-#reoil01 {
-    margin-top: 1em;
-    font-weight: 300;   
-}
 
 #reoil01 p{
+    margin: 0%;
     text-align: justify;  
 }
 
 /* ///////////////////////////// */
-#reoil02 {
-    margin-top: 1em;
-    font-weight: 300;   
-}
-
-#reoil02 h5{
-    font-weight: 500;   
-}
-
-#reoil02 p{
-    text-align: justify;  
-}
 
 #reoil02 img{
     margin-top: 2em; 
@@ -65,12 +50,8 @@ body p {
 
  /* ///////////////////////////// */
 #reoil03 {
-    margin-top: 1em;
-    font-weight: 300;   
-}
-
-#reoil03 h2{
-    font-weight: 500;   
+    margin-top: 2em;  
+    margin-bottom: 2em; 
 }
 
 #reoil03 p{
@@ -79,15 +60,15 @@ body p {
 
 /* ////////////// */
 #reoil04 {
-    margin-top: 6em;  
-}
-
-#reoil04 h2{
-    font-size: 25px;
-    font-weight: 500;   
+    margin-top: 2em;
+    margin-bottom: 2em;   
 }
 
 #reoil04 h3{
+    font-weight: 400;   
+}
+
+#reoil04 h4{
     color: #606470;
     text-align: justify;
     font-weight: 300; 
@@ -99,13 +80,12 @@ body p {
 
  /* ///////////////////////////// */
  #reoil05 {
-    margin-top: 1em;
-    font-weight: 300;   
+    margin-top: 2em;
+    margin-bottom: 2em;   
 }
 
-#reoil05 h5{
-    color: #606470;
-    font-weight: 500;   
+#reoil05 h3{
+    font-weight: 400;   
 }
 
 #reoil05 p{
@@ -113,8 +93,8 @@ body p {
 }
 
 #reoil05 img{
-    margin-top: 3em; 
-    margin-bottom: 4em; 
+    margin-top: 2em;
+    margin-bottom: 2em;  
 }
 
 /* ///////////////////////////// */

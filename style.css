@@ -57,13 +57,12 @@ body .card{
 
 #presentacion {
     width: 100%;
-    padding: 3em; 
-    margin-bottom: 6em;
+    margin-bottom: 3em;
 }
 
 
 #habilidades {
-    margin-bottom: 15em;
+    margin-bottom: 7em;
     color: #393e46;
  
 }
@@ -89,61 +88,55 @@ body .card{
 
 /* BOTON CV ///////////////////////////////// */
 
-
-#bottonCv h3{
+#botonCv h3{
     font-family: 'Roboto', sans-serif;
     font-size: 25px;
-    font-weight: 100;
+    font-weight: 500;
     color: #606470;
     text-align: center;
-    font-style: italic;
-    margin-bottom: 5%;  
 }
 
-#bottonCv button{
-    border-radius: 4px;
+#botonCv button{
+    border-radius: 118px 118px 118px 118px;
+    -moz-border-radius: 118px 118px 118px 118px;
+    -webkit-border-radius: 118px 118px 118px 118px;
+    border: 0px solid #000000;
     background-color: #ef4343;
-    border: none;
-    color: #FFFFFF;
     text-align: center;
-    font-size: 28px;
+    font-size: 20px;
     padding: 20px;
-    width: 200px;
+    width: 250px;
     transition: all 0.5s;
     cursor: pointer;
     margin: 5px;
 }
-
-#bottonCv button a{
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    transition: 0.5s;
-}
-
-#bottonCv button a:after{
-    content: '\00bb';
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    right: -20px;
-    transition: 0.5s;
-}
-
-#bottonCv button:hover a{
-    padding-right: 25px;
-}
-
-#bottonCv button:hover a:after{
-    opacity: 1;
-    right: 0;
-}
-
-#bottonCv a {
+#botonCv a {
     color: #ffffff;
     font-family: 'Roboto', sans-serif;
     font-size: 25px;
-    font-weight: 400;
+    font-weight: 300;
+}
+
+
+#botonCertificado button{
+    border-radius: 118px 118px 118px 118px;
+    -moz-border-radius: 118px 118px 118px 118px;
+    -webkit-border-radius: 118px 118px 118px 118px;
+    border: 0px solid #000000;
+    background-color: #d61bd6;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    width: 250px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+#botonCertificado a {
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: 300;
 }
 
 /* TITULO DE PORTAFOLIO */
@@ -152,28 +145,19 @@ body .card{
 }
 
 #vistaPotafolio01 {
-    margin-top: 15em;
+    margin-top: 10em;
     margin-left: 2em;
     margin-right: 2em;
     margin-bottom: 10em;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     color: #393e46;
-    border: none;
-}
-
-#vistaPotafolio01 .card {
-    border: none;
 }
 
 #vistaPotafolio p {
     text-align: justify;
     font-weight: 100;
     color: #a09f9f;
-}
-
-#presentacion .card{
-    border: none;
 }
 
 #vistaPotafolio02 {
@@ -183,44 +167,29 @@ body .card{
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     color: #393e46;
-    border: none;
-}
-/* ///////////////////////////////////////////////////////// */
-#contacto {
-    width:100%;
-    height: 100px;
-    margin-top: 2em;
-    background: #ef4343; 
-}
-
-#contacto h2 {
-    font-weight: 300;
-    font-size: 20px;
-    color: aliceblue;
-    text-align: center;
 }
 
 /* REDES SOCIALES */
-#redesSociales2 {
+#redesSociales {
     background: #393e46; 
 }
-#redesSociales2 a {
+#redesSociales a {
     font-weight: 200;
     font-size: 15px;
     color: #ffffff;
    
 }
-#redesSociales2 h2 {
+#redesSociales h2 {
     font-size: 15px;
     color: #ffffff;
     text-align: center;
     margin-bottom: 2em;
 }
 
-#redesSociales2 i {
-    width: 40%;
+#redesSociales i {
+    width: 25%;
     font-weight: 100;
-    font-size: 30px;
+    font-size: 25px;
     color: #ffffff; 
     text-align: right;
 }
@@ -270,7 +239,27 @@ body .card{
        
     }
 
-        
+    #botonCv button{
+        font-size: 15px;
+        padding: 15px;
+        width: 200px; 
+    }
+    
+    #botonCv a {
+        font-size: 15px;
+        font-weight: 300;
+    }
+       
+    #botonCertificado button{
+        font-size: 15px;
+        padding: 15px;
+        width: 200px; 
+    }
+    
+    #botonCertificado a {
+        font-size: 15px;
+        font-weight: 300;
+    }
         
     }
 
