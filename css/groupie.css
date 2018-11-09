@@ -2,25 +2,18 @@
 header {
     margin-top: 2em;
 }
-
-#menu {
-    background:#ffffff;
-}
-
- #menu a {
-     color: #393e46;
+#atras a {
+    color: #393e46;
      font-family: 'Roboto', sans-serif;
      font-weight: 400;
 }
-
-#menu img {
-    width: 40%;
+#atras i {
+    font-size: 40px;
+    color: #ef4343;
 }
-
  .card {
     border: none;
 }
-
 body {
     font-family: 'Roboto', sans-serif; 
     color: #393e46; 
@@ -29,194 +22,153 @@ body p {
     color: #606470; 
     font-weight: 100;
 }
-
 #titulo p {
     font-weight: 300; 
     font-style: italic; 
 }
-
-/* ///////////////////////////// */
+ /* -------------------------- */
 #groupie01 {
     margin-top: 2em;
     font-weight: 300;   
 }
-
 #groupie01 h6{
     font-weight: 500;   
 }
-
 #groupie01 p{
     text-align: justify;  
 }
-
-/* ///////////////////////////// */
+ /* -------------------------- */
 #groupie02 {
     margin-top: 3em;  
 }
-
 #groupie02 h5{
     font-weight: 500;   
 }
-
 #groupie02 img{
     margin-top: 2em; 
     margin-bottom: 2em; 
 }
-
 #groupie02 p{
     text-align: justify;  
 }
-
-/* ///////////////////////////// */
+ /* -------------------------- */
 #groupie03 {
     margin-top: 5em;  
 }
-
 #groupie03 h5{
     font-weight: 500;   
 }
-
 #groupie03 img{
     margin-top: 2em; 
     margin-bottom: 2em; 
 }
-
 #groupie03 p{
     text-align: justify;  
 }
-
-/* ///////////////////////////// */
+ /* -------------------------- */
 #groupie04 {
     margin-top: 2em; 
     margin-bottom: 2em;  
 }
-
 #groupie04 h6{
     font-weight: 500;   
 }
-
 #groupie04 p{
     text-align: justify;  
 }
-
-/* ///////////////////////////// */
+ /* -------------------------- */
 #groupie05 {
     margin-top: 2em; 
     margin-bottom: 2em;  
 }
-
 #groupie05 h2{
     font-size: 25px;
     font-weight: 500;   
 }
-
 #groupie05 h3{
     color: #606470;
     text-align: justify;
     font-weight: 300; 
 }
-
 #groupie05 p{
     text-align: justify;  
 }
-
-/* ///////////////////////////// */
+ /* -------------------------- */
 #groupie06 {
     margin-top: 2em; 
     margin-bottom: 2em;  
 }
-
 #groupie06 h3{
     text-align: justify;
 }
-
 #groupie06 p{
     text-align: justify;  
 }
-
-/* ///////////////////////////// */
+ /* -------------------------- */
 #groupie07 {
     margin-top: 2em; 
     margin-bottom: 2em;  
 }
-
 #groupie07 h3{
     text-align: justify;
 }
-
 #groupie07 p{
     text-align: justify;  
 }
-
-
-/* ///////////////////////////// */
+ /* -------------------------- */
 #groupie08 {
     margin-top: 6em;  
 }
-
 #groupie08 h3{
     color: #606470;
     text-align: justify;
     font-weight: 300; 
 }
-
 #groupie08 p{
     text-align: justify;  
 }
-
-/* ///////////////////////////// */
-
+ /* -------------------------- */
 #groupie09 {
     margin-top: 2em; 
     margin-bottom: 10em; 
 }
-
 #groupie09 h3{
     text-align: justify;
 }
-
 #groupie07 img{
     margin-bottom: 2em; 
 }
-
-/* ///////////////////////////// */
-
+ /* -------------------------- */
 #groupie10 {
     margin-bottom: 15em; 
 }
-
-/* REDES SOCIALES */
+ /* -------------------------- */
 #redesSociales {
+    height: 180px;
     background: #393e46; 
-}
-#redesSociales a {
-    font-weight: 200;
-    font-size: 15px;
-    color: #ffffff;
-   
-}
-#redesSociales h2 {
-    font-size: 15px;
-    color: #ffffff;
-    text-align: center;
-    margin-bottom: 2em;
-}
-
+} 
 #redesSociales i {
-    width: 25%;
     font-weight: 100;
-    font-size: 25px;
+    font-size: 35px;
     color: #ffffff; 
-    text-align: right;
+    margin-top: 10%;
 }
-
+#redesSociales .fa-linkedin-in {
+    margin-left: 90%;
+}
+#redesSociales .fa-github {
+    margin-right: 90%;
+}
 @media only screen and (max-width: 600px) {
-    #menu img {
-        width: 30%;
-    }
-
     #titulo h1 {
        font-size: 30px;
+    }
+     /* -------------------------- */
+     #redesSociales {
+        height: 100px;
+    } 
+    #redesSociales i {
+        font-size: 25px;
     }
         
     }

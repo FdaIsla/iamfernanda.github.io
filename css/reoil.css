@@ -2,24 +2,13 @@
 header {
     margin-top: 2em;
 }
-
-#menu {
-    background:#ffffff;
+#atras i {
+    font-size: 40px;
+    color: #ef4343;
 }
-#menu img {
-    width: 40%;
-}
-
- #menu a {
-     color: #393e46;
-     font-family: 'Roboto', sans-serif;
-     font-weight: 400;
-}
-
 .card {
     border: none;
 }
-
 body {
     font-family: 'Roboto', sans-serif; 
     color: #393e46; 
@@ -28,122 +17,100 @@ body p {
     color: #606470; 
     font-weight: 100;
 }
-
 #titulo p {
     font-weight: 300; 
     font-style: italic; 
 }
-
-/* ///////////////////////////// */
-
+/* -------------------------- */
 #reoil01 p{
     margin: 0%;
     text-align: justify;  
 }
-
-/* ///////////////////////////// */
-
+/* -------------------------- */
 #reoil02 img{
     margin-top: 2em; 
     margin-bottom: 2em; 
 }
-
- /* ///////////////////////////// */
+/* -------------------------- */
 #reoil03 {
     margin-top: 2em;  
     margin-bottom: 2em; 
 }
-
 #reoil03 p{
     text-align: justify;  
 }
-
-/* ////////////// */
+/* -------------------------- */
 #reoil04 {
     margin-top: 2em;
     margin-bottom: 2em;   
 }
-
 #reoil04 h3{
     font-weight: 400;   
 }
-
 #reoil04 h4{
     color: #606470;
     text-align: justify;
     font-weight: 300; 
 }
-
 #reoil04 p{
     text-align: justify;  
 }
-
- /* ///////////////////////////// */
+/* -------------------------- */
  #reoil05 {
     margin-top: 2em;
     margin-bottom: 2em;   
 }
-
 #reoil05 h3{
     font-weight: 400;   
 }
-
 #reoil05 h6{
     font-weight: 200;   
 }
-
 #reoil05 p{
     text-align: justify;  
 }
-
 #reoil05 img{
     margin-top: 2em;
     margin-bottom: 2em;  
 }
-
-/* ///////////////////////////// */
-
+/* -------------------------- */
 #reoil06 {
     margin-top: 6em;
     margin-bottom: 2em;
 }
-
 #reoil06 p{
     text-align: justify;  
 }
-
-/* REDES SOCIALES */
+/* -------------------------- */
 #redesSociales {
+    height: 180px;
     background: #393e46; 
-}
-#redesSociales a {
-    font-weight: 200;
-    font-size: 15px;
-    color: #ffffff;
-   
-}
-#redesSociales h2 {
-    font-size: 15px;
-    color: #ffffff;
-    text-align: center;
-    margin-bottom: 2em;
-}
-
+} 
 #redesSociales i {
-    width: 25%;
     font-weight: 100;
-    font-size: 25px;
+    font-size: 35px;
     color: #ffffff; 
-    text-align: right;
+    margin-top: 10%;
 }
-
-
+#redesSociales .fa-linkedin-in {
+    margin-left: 90%;
+}
+#redesSociales .fa-github {
+    margin-right: 90%;
+}
 @media only screen and (max-width: 600px) {
-    #menu img {
-        width: 30%;
+    #atras i {
+        font-size: 25px;
     }
     #titulo h1 {
-        font-size: 30px;
+        font-size: 25px;
+    }
+    /* -------------------------- */
+    #redesSociales {
+        height: 100px;
+    } 
+    #redesSociales i {
+        font-size: 25px;
     }
     
     }
