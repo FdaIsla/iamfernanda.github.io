@@ -163,6 +163,9 @@ body p {
     #titulo h1 {
        font-size: 30px;
     }
+    #atras i {
+        font-size: 25px;
+    }
      /* -------------------------- */
      #redesSociales {
         height: 100px;
