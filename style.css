@@ -11,29 +11,39 @@ body .card{
 #menu img {
     width: 40%;
 }
+#menu #navbarNav {
+    text-align: right;
+    
+}
 #menu a {
-     font-size: 15px;
-     color: #393e46;
-     font-family: 'Roboto', sans-serif;
-     font-weight: 400;
+    font-size: 15px;
+    color: #393e46;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+   
 }
  /* ----------------------------- */
 
 #portada {
     padding: 4em;
+    background-image: url("./img/fondo-portada.jpg");
+   
 }
 #portada h3{
     font-family: 'Kaushan Script', cursive;
     font-size: 80px;
     font-weight: 300;
     color: #323643;
-    margin-top: 25%;
+    margin-top: 10%;
+    margin-bottom: 3%;
+    text-align: center;
 }
 #portada h6{
     font-family: 'Roboto', sans-serif;
     font-size: 25px;
     font-weight: 200;
     color: #606470;
+    text-align: center;
 }
 #portada p{
     font-family: 'Roboto', sans-serif;
@@ -44,21 +54,13 @@ body .card{
     font-style: italic;
 }
 /* ------------------------- */
-#botonCv  {
-    margin-top: 10em;
-    margin-bottom: 10em;
-}
-#botonCv h4 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 40px;
-    color: #606470;
-}
-#botonCv button{
+
+#portada button{
     border-radius: 118px 118px 118px 118px;
     -moz-border-radius: 118px 118px 118px 118px;
     -webkit-border-radius: 118px 118px 118px 118px;
     border: 1px solid #ef4343;
-    background-color: #ffffff;
+    background-color: #ef4343;
     text-align: center;
     font-size: 20px;
     padding: 20px;
@@ -68,77 +70,87 @@ body .card{
     margin: 5px;
     margin: auto;
     margin-top: 5%;
+    margin-bottom: 3%;
 }
-#botonCv a {
-    color: #ef4343;
+#portada a {
+    color: #ffffff;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
 }
 /* ------------------------- */
-#habilidades {
-    color: #393e46;   
-}
-#habilidades h5{
-    font-family: 'Roboto', sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    color: #606470;
-    margin: auto;
-}
-#habilidades p{
-    font-family: 'Roboto', sans-serif;
-    font-size: 15px;
-    font-weight:200;
-    color: #919190;
-    text-align: justify;
-}
-#habilidades i {
-    font-size: 40px;
-    color: #ef4343;
-    margin-bottom: 5%;
-}
-/* --------------------------- */
 #proyectos h3 {
-    font-family: 'Kaushan Script', cursive;
-    font-size: 60px;
-    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
     color: #323643;
     margin-left: 0%;
+    text-align: center;
 }
 #proyectos {
-    margin-top: 10em;
+    margin-top: 2em;
     margin-right: 2em;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     color: #393e46;
     padding: 4em;
 }
+/* -------------------------- */
 #vistaPotafolio01  {
-    padding: 4em;
+    padding: 2em;
+    filter: drop-shadow(0 2mm 2mm rgb(235, 235, 235));  
+}
+
+#vistaPotafolio01 .card-body {
+    padding: 0%;
 }
 #vistaPotafolio01 h5 {
     font-family: 'Roboto', sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     color: #606470;
-    margin-top: 1em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    text-align: center;
+    font-size: 17px;
+}
+/* -------------------------- */
+#vistaPotafolio02  {
+    padding: 2em;
+    filter: drop-shadow(0 2mm 2mm rgb(235, 235, 235));  
+}
+
+#vistaPotafolio02 .card-body {
+    padding: 0%;
+}
+#vistaPotafolio02 h5 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #606470;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    text-align: center;
+    font-size: 17px;
 }
 /* -------------------------- */
 #contacto {
-    margin-top: 7em;
-    margin-bottom: 5em;
-    padding: 4em;
+    margin-top: 4em;
+    margin-bottom: 4em;
+    padding: 2em;
 }
 #contacto h3 {
-    font-family: 'Kaushan Script', cursive;
-    font-size: 60px;
-    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
     color: #323643;
     margin-left: 0%;
+    text-align: center;
 }
 #contacto h4 {
     font-family: 'Roboto', sans-serif;
-    font-size: 40px;
-    color: #606470;
+    font-size: 20px;
+    font-weight: 100;
+    text-align: center;
+    color: #919190;
+    font-style: italic;
 }
 #contacto a {
     font-size: 50px;
@@ -161,6 +173,13 @@ body .card{
 }
 #redesSociales .fa-github {
     margin-right: 90%;
+}
+#redesSociales p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-weight: 100;
+    text-align: center;
+    color: #ffffff;
 }
 
 
@@ -200,7 +219,7 @@ body .card{
         font-size: 30px;
        
     }
-    #botonCv button{
+    #portada button{
         font-size: 15px;
         padding: 15px;
         width: 200px; 
