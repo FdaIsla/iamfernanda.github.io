@@ -1,0 +1,91 @@
+
+header {
+    margin-top: 2em;
+}
+.card {
+    border: none;
+}
+#atras i {
+    font-size: 40px;
+    color: #ef4343;
+}
+body {
+    font-family: 'Roboto', sans-serif; 
+    color: #393e46; 
+}
+body p { 
+    color: #606470; 
+    font-weight: 100;
+}
+/* ---------------------------- */
+#titulo p {
+    font-weight: 300; 
+    font-style: italic; 
+}
+/* ---------------------------- */
+#cruzroja01 img{
+    margin-top: 2em; 
+    margin-bottom: 2em; 
+}
+/* ---------------------------- */
+#cruzroja02 img{
+    margin-top: 2em; 
+    margin-bottom: 2em; 
+}
+/* -------------------------- */
+#redesSociales {
+    height: 180px;
+    background: #393e46; 
+} 
+#redesSociales i {
+    font-weight: 100;
+    font-size: 35px;
+    color: #ffffff; 
+    margin-top: 10%;
+}
+#redesSociales .fa-linkedin-in {
+    margin-left: 90%;
+}
+#redesSociales .fa-github {
+    margin-right: 90%;
+}
+#redesSociales p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-weight: 100;
+    text-align: center;
+    color: #ffffff;
+}
+
+@media only screen and (max-width: 600px) {
+    #atras i {
+        font-size: 25px;
+    }
+    #titulo h1 {
+        font-size: 25px;
+    }
+    #cruzroja01 img{
+        margin-top: 2em; 
+        margin-bottom: 2em; 
+    } 
+    /* -------------------------- */
+    #redesSociales {
+        height: 100px;
+    } 
+    #redesSociales i {
+        font-size: 25px;
+    }
+    
+    }
+
+
+
+
+
+
+
+
+
+
+
+

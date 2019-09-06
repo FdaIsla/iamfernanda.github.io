@@ -159,6 +159,14 @@ body p {
 #redesSociales .fa-github {
     margin-right: 90%;
 }
+
+#redesSociales p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-weight: 100;
+    text-align: center;
+    color: #ffffff;
+}
 @media only screen and (max-width: 600px) {
     #titulo h1 {
        font-size: 30px;
